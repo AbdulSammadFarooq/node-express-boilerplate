@@ -1,0 +1,36 @@
+{
+  "name": "Boilerplate",
+  "version": "1.0.0",
+  "description": "Basic folder structure",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore 'uploads/*'"
+  },
+  "author": "Abdul Sammad",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.478.0",
+    "@sendgrid/client": "^8.1.0",
+    "@sendgrid/mail": "^8.1.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.7",
+    "rootpath": "^0.1.2",
+    "sanitize-html": "^2.11.0",
+    "sanitizer": "^0.1.3",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "winston-cloudwatch": "^6.2.0",
+    "winston-slack-hook": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  }
+}

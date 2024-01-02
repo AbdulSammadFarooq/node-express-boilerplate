@@ -1,0 +1,38 @@
+{
+  "mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "databaseName": "test"
+  },
+  "expressJwt": {
+    "secret": "sdsdksldkslkd.aasjdasdnlk"
+  },
+  "server": {
+    "port": 4000,
+    "url": "http://localhost:4000/"
+  },
+  "client": {
+    "url": "http://localhost:3000/"
+  },
+  "emailConfig":{
+    "host":"",
+    "port":1,
+    "userName":"",
+    "password":""
+  },
+  "googleConfig": {
+    "clientId": "",
+    "clientSecret": "",
+    "redirectUrl": ""
+  },
+  "linkedinConfig": {
+    "clientId": "",
+    "clientSecret": "",
+    "redirectUrl": ""
+  },
+  "facebookConfig": {
+    "appId": "",
+    "appSecret": "",
+    "redirectUrl": ""
+  }
+}
